@@ -3,6 +3,7 @@ jar { enabled = true }
 
 dependencies {
     implementation(project(":modules:internal"))
+    implementation 'org.json:json:20240303'
 }
 
 
