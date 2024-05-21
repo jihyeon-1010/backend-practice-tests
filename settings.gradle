@@ -1,0 +1,15 @@
+rootProject.name = 'forecast-hub-api'
+
+include 'modules:domain'
+include 'modules:internal'
+include 'modules:application'
+include 'modules:application:sync-application'
+include 'modules:application:inquire-application'
+
+project(':modules:domain').name = 'domain'
+project(':modules:internal').name = 'internal'
+project(':modules:application').name = 'application'
+project(':modules:application:sync-application').name = 'sync-application'
+project(':modules:application:inquire-application').name = 'inquire-application'
+
+
